@@ -1,10 +1,7 @@
 {
-	"//1": "describes your app and its dependencies",
-	"//2": "https://docs.npmjs.com/files/package.json",
-	"//3": "updating this file will download and update your packages",
-	"name": "my-hyperdev-app",
+	"name": "structure-exposed",
 	"version": "0.0.1",
-	"description": "What am I about?",
+	"description": "A simple proxy that strips away CSS frippery.",
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
@@ -19,7 +16,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://hyperdev.com/#!/project/welcome-project"
+		"url": "https://github.com/danielsmc/structure-exposed"
 	},
 	"keywords": [
 		"node",
