@@ -5,7 +5,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Enter a URL | structure.exposed</title>
+    <title>structure.exposed</title>
     <meta name="description" content="$$projectFullDescription" />
     <link rel="author" href="humans.txt" />
 
@@ -13,20 +13,31 @@
     <!-- TODO: icons and social -->
 </head>
 <body>
-<main role="main">
+<main id="main" role="main">
 
 <h1>structure.exposed</h1>
 
-<form action="/proxy">
+<form id="form" class="form" action="/proxy">
 
-    <label for="url">
-        Check a website’s underlying structure by resetting all styling to browser default.
-        <input name="url" type="url" autocapitalize="off" placeholder="http://example.com">
+    <label for="form-url">
+        Check a website’s underlying anatomy by resetting all styling to browser default.
+        <input
+            type="url"
+            name="form-url"
+            id="form-url"
+            class="form__url"
+            autocapitalize="off"
+            placeholder="Type or paste a URL here" />
     </label>
 
-    <input type="submit">
+    <input
+        type="submit"
+        name="form-button"
+        id="form-button"
+        class="form__button"
+        value="Load" />
 </form>
-Why?
+<a rel="external noopener" href="">Why?</a>
 </main>
 <!-- TODO: Google Analytics -->
 </body>
