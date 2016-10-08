@@ -1,10 +1,26 @@
 <!doctype html>
-<html>
-  <head>
-    <title>Enter a URL</title>
-  </head>
-  <form action="/proxy">
-    <input name="url" placeholder="http://example.com" style="width:30em;">
+<html itemscope itemtype="http://schema.org/Webpage" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Enter a URL | structure.exposed</title>
+    <meta name="description" content="$$projectFullDescription" />
+    <link rel="author" href="humans.txt" />
+
+    <link rel="stylesheet" href="main.css?rev={{timestamp}}" />
+    <!-- TODO: icons and social -->
+</head>
+<body>
+<main role="main">
+
+<form action="/proxy">
+    <input name="url" placeholder="http://example.com">
     <input type="submit">
-  </form>
+</form>
+
+</main>
+<!-- TODO: Google Analytics -->
+</body>
 </html>
