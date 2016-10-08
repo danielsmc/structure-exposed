@@ -1,0 +1,42 @@
+The Humans Responsible & Colophon
+humanstxt.org
+
+
+structure.exposed
+http://structure.exposed
+
+
+## Team
+- Dan McLaughlin
+    - Developer
+    - Cambridge, MA
+    - @mclaughlin
+- Eric Bailey
+    - Designer/Developer
+    - Somerville, MA
+    - @ericwbailey
+
+
+## Thanks
+- The Hot Garbage Crew
+
+
+## Site
+- Standards
+    - HTML5
+    - CSS3
+    - JavaScript
+- Components
+    - Git, https://git-scm.com/
+    - GitHub, https://github.com/
+    - Gulp, http://gulpjs.com/
+    - HyperDev, https://hyperdev.com/
+    - Sass, http://sass-lang.com/
+    - Node.js, https://nodejs.org/en/
+- Software
+   - Atom, http://atom.io/
+   - Chrome, https://www.google.com/chrome/
+   - Firefox, https://www.mozilla.org/en-US/firefox/new/
+   - Safari, http://www.apple.com/safari/
+   - Sketch, https://www.sketchapp.com/
+   - Tower, https://www.git-tower.com/
