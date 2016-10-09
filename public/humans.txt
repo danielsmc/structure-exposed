@@ -29,9 +29,7 @@ http://structure.exposed
 - Components
     - Git, https://git-scm.com/
     - GitHub, https://github.com/
-    - Gulp, http://gulpjs.com/
     - HyperDev, https://hyperdev.com/
-    - Sass, http://sass-lang.com/
     - Node.js, https://nodejs.org/en/
 - Software
    - Atom, http://atom.io/
