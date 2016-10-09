@@ -15,13 +15,15 @@ Authoring your markup in a structured, logical order using semantic markup ensur
 
 ### How are the styles removed?
 
-Styles are removed by a loaded stylesheet that overrides host CSS rules by using the [`all: initial;`]((http://www.brucelawson.co.uk/2014/css-all-initial-to-prevent-widgets-inheriting-css-from-a-host-page/)) declaration.
+Styles are removed by a loaded stylesheet that overrides host CSS rules by using the [`all: initial;`](http://www.brucelawson.co.uk/2014/css-all-initial-to-prevent-widgets-inheriting-css-from-a-host-page/) declaration.
 
 ### Is this the document source order as authored?
 
-No. The styles are removed after the page has finished rendering. This includes any DOM manipulation performed by the host site's JavaScript.
+No. The styles are removed after the page has finished rendering. This includes any DOM manipulation performed by the host site's JavaScript. 
 
 structure.exposed does *not* alter the host site's HTML.
+
+Also note that for accessibility testing, [nearly 100% of all people that navigate using a screen reader do so with JavaScript enabled](http://a11yproject.com/posts/myth-screen-readers-dont-use-javascript/). 
 
 ### Why are all those giant logos showing up?
 
