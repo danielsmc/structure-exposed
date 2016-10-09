@@ -1,7 +1,10 @@
 {
 	"name": "structure-exposed",
-	"version": "0.0.1",
 	"description": "A simple proxy that strips away CSS frippery.",
+    "homepage": "https://structure.exposed/",
+	"version": "0.0.1",
+    "author": "Dan McLaughlin <danielsmc@gmail.com> (http://danielmclaughl.in/)",
+    "contributors": "Eric Bailey <eric.w.bailey@gmail.com> (http://ericwbailey.com/)",
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
@@ -18,10 +21,16 @@
 		"type": "git",
 		"url": "https://github.com/danielsmc/structure-exposed"
 	},
+    "bugs": {
+        "url": "https://github.com/danielsmc/structure-exposed/issues",
+        "email": "danielsmc@gmail.com"
+    },
 	"keywords": [
-		"node",
-		"hyperdev",
-		"express"
+		"css",
+		"styles",
+        "html",
+		"semantics",
+        "accessibility"
 	],
 	"license": "MIT"
 }
