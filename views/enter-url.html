@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>structure.exposed</title>
-    <meta name="description" content="Check a website’s underlying anatomy by resetting all styling to browser default." />
+    <meta name="description" content="A simple proxy that strips away CSS frippery." />
     <link rel="author" href="humans.txt" />
 
     <link rel="stylesheet" href="main.css?rev=20161008" />
@@ -15,12 +15,12 @@
 <body>
 <main id="main" role="main">
 
-<h1>structure.exposed</h1>
+<h1 class="page__title">str<span class="kern">u</span>cture.<span class="kern">e</span>xposed</h1>
 
 <form id="form" class="form" action="/proxy">
 
-    <label for="form-url">
-        Check a website’s underlying anatomy by resetting all styling to browser default.
+    <label for="form-url" class="form__label">
+        Check a website’s anatomy by resetting all styling to browser default.
         <input
             type="url"
             name="form-url"
@@ -35,9 +35,17 @@
         name="form-button"
         id="form-button"
         class="form__button"
-        value="Load" />
+        value="View URL" />
+
+    <a
+        rel="external noopener"
+        class="form__more-info"
+        href="https://github.com/danielsmc/structure-exposed/blob/master/README.md">
+        Why?
+    </a>
+
 </form>
-<a rel="external noopener" href="">Why?</a>
+
 </main>
 <!-- TODO: Google Analytics -->
 </body>
