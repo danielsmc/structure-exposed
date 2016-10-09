@@ -1,12 +1,12 @@
 # [structure.exposed](http://structure.exposed/)
 
-A simple proxy that strips away CSS frippery. Another [Dan](https://twitter.com/mclaughlin) and [Eric](https://twitter.com/ericwbailey) joint.
+A simple proxy that strips away CSS frippery.
 
 ## Why?
 
 structure.exposed is a good way to check how your site will look if the styles fail to load.
 
-Firewalls, intermittent connection, shiesty service providers, bad caches, browser plugins, content blockers, and CDN outages all can conspire to interrupt your style's HTTP request. 
+Firewalls, intermittent connection, shiesty service providers, bad caches, browser plugins, content blockers, non-standard browsers, and CDN outages all can conspire to interrupt your style's HTTP request. 
 
 Authoring your markup in a structured, logical order using semantic markup ensures that basic functionality is retained even if the visuals are not. It is also great for [making your site accessible](http://a11yproject.com/posts/navigate-using-just-your-keyboard/).
 
@@ -29,6 +29,9 @@ Also note that for accessibility testing, [nearly 100% of all people that naviga
 
 There is a technique for displaying icons that has you [place SVG files invisibly at the top of your site](https://css-tricks.com/using-svg/). When styling is removed, the instructions for hiding them are disabled and the icons appear in their default state.
 
+### Is this a good replacement for Google Wireless Transcoder?
+
+Nope, unfortunately. The loaded site will still request and download data before styles are removed.
 
 ## Inspiration
 
@@ -38,3 +41,7 @@ Firefox's [disable Page Style functionality](https://developer.yahoo.com/blogs/y
 ## License
 
 [MIT](https://raw.githubusercontent.com/danielsmc/structure-exposed/master/LICENSE).
+
+* * *
+
+Another [Dan](https://twitter.com/mclaughlin) and [Eric](https://twitter.com/ericwbailey) joint.
