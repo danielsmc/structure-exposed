@@ -1,10 +1,52 @@
 <!doctype html>
-<html>
-  <head>
-    <title>Enter a URL</title>
-  </head>
-  <form action="/proxy">
-    <input name="url" placeholder="http://example.com" style="width:30em;">
-    <input type="submit">
-  </form>
+<html itemscope itemtype="http://schema.org/Webpage" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>structure.exposed</title>
+    <meta name="description" content="A simple proxy that strips away CSS frippery." />
+    <link rel="author" href="humans.txt" />
+
+    <link rel="stylesheet" href="main.css?rev=20161008" />
+    <!-- TODO: icons and social -->
+</head>
+<body>
+<main id="main" role="main">
+
+<h1 class="page__title">str<span class="kern">u</span>cture.<span class="kern">e</span>xposed</h1>
+
+<form id="form" class="form" action="/proxy">
+
+    <label for="form-url" class="form__label">
+        Check a website’s anatomy by resetting all styling to browser default.
+        <input
+            type="url"
+            name="form-url"
+            id="form-url"
+            class="form__url"
+            autocapitalize="off"
+            placeholder="Type or paste a URL here" />
+    </label>
+
+    <input
+        type="submit"
+        name="form-button"
+        id="form-button"
+        class="form__button"
+        value="View URL" />
+
+    <a
+        rel="external noopener"
+        class="form__more-info"
+        href="https://github.com/danielsmc/structure-exposed/blob/master/README.md">
+        Why?
+    </a>
+
+</form>
+
+</main>
+<!-- TODO: Google Analytics -->
+</body>
 </html>
