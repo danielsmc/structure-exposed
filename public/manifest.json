@@ -2,12 +2,12 @@
 	"name": "structure",
 	"icons": [
 		{
-			"src": "\/android-chrome-192x192.png?rev=201610091029",
+			"src": "\/android-chrome-192x192.png?rev=201610091050",
 			"sizes": "192x192",
 			"type": "image\/png"
 		},
 		{
-			"src": "\/android-chrome-512x512.png?rev=201610091029",
+			"src": "\/android-chrome-512x512.png?rev=201610091050",
 			"sizes": "512x512",
 			"type": "image\/png"
 		}
