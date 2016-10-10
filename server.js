@@ -33,7 +33,12 @@ app.get("/proxy", function (req, response, next) {
         proxres = zlib.gzipSync(proxres);
       }
     }
-    response.end(proxres);
+    try {
+      response.end(proxres);
+    } catch (err) {
+      console.log("just walk away whistling...",url);
+      response.status(500).end("");
+    }
   });
   var url = req.query.url;
   if (url) {
