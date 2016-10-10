@@ -14,7 +14,7 @@ Authoring your markup in a logical order using semantic markup ensures that basi
 
 ### How are styles removed?
 
-Styles are removed by [an injected stylesheet](https://github.com/danielsmc/structure-exposed/blob/master/public/nuclear-reset.css) that overrides the host site's CSS by using the [`all: initial;`](http://www.brucelawson.co.uk/2014/css-all-initial-to-prevent-widgets-inheriting-css-from-a-host-page/) declaration.
+Styles are removed by [an injected script](https://github.com/danielsmc/structure-exposed/blob/master/public/nuclear-reset.js) that removes every `<style>` tag, every `<link rel="stylesheet">` and the `style` attribute from every element.
 
 ### Is this the document source order as authored?
 
