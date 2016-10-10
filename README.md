@@ -36,6 +36,10 @@ Clever developers will sometimes hide content on the site, and then reveal it un
 
 Nope, unfortunately. The site will still request and download data before its styles are removed.
 
+### Can I use this locally?
+
+Just break the link to your CSS, you silly goose.
+
 ## Inspiration
 
 Firefox's [disable Page Style functionality](https://developer.yahoo.com/blogs/ydn/temporarily-disable-css-testing-53538.html).
