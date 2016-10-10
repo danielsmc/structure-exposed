@@ -71,10 +71,6 @@ a:active {
     color: #004b8c;
 }
 
-a:visited {
-    color: #b10dc9;
-}
-
 
 /* Titling ///////////////////////////////////////////////////////////////// */
 .page__title {
@@ -106,7 +102,7 @@ a:visited {
     border: 1px solid #c1c1c1;
     border-radius: 0;
 
-    font-size: calc(1em + 1.5vw);
+    font-size: calc(1em + 1.25vw);
 
     transition: border-color 0.2s ease-in-out;
 
@@ -179,7 +175,7 @@ a:visited {
     }
 
     main {
-        padding-bottom: 0;
+        padding-bottom: 5vh;
     }
 
 /* Form */
