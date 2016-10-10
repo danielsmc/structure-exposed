@@ -2,7 +2,7 @@
 	"name": "structure-exposed",
 	"description": "A simple proxy that strips away CSS frippery.",
     "homepage": "https://structure.exposed/",
-	"version": "0.0.1",
+	"version": "0.0.2",
     "author": "Dan McLaughlin <danielsmc@gmail.com> (http://danielmclaughl.in/)",
     "contributors": "Eric Bailey <eric.w.bailey@gmail.com> (http://ericwbailey.com/)",
 	"main": "server.js",

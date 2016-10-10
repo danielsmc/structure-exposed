@@ -6,8 +6,13 @@ This project adheres to [Semantic Versioning](http://semver.org/) and tries to f
 
 ## vNext - Unreleased
 
-- Update the design of the landing page
-- Flesh out the project README
+- Inline input validation
+
+## v0.0.2 - 2016-10-10
+
+- Updated the design of the landing page
+- Fleshed out the project README
+- Added error page
 
 ## v0.0.1 - 2016-10-03
 
