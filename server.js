@@ -17,23 +17,23 @@ app.use(express.static('public'));
 app.get("/proxy", function (req, response, next) {
   var headers;
   var write = concat(function(proxres) {
-    if (!headers['content-type']) {
-      console.log(proxres);
-    }
-    if ((headers['content-type']).indexOf('html') > 0) {
-      if (headers['content-encoding']==='gzip') {
-        proxres = zlib.gunzipSync(proxres);
-      }
-      var resstr = proxres.toString();
-      if (resstr.indexOf('</head>') > 0) {
-        proxres = resstr.replace('</head>','<script src="/mutation-summary.js"></script><script src="/nuclear-reset.js"></script></head>');
-        // .replace('</head>','<link rel="stylesheet" href="/nuclear-reset.css"></head>');
-      }
-      if (headers['content-encoding']==='gzip') {
-        proxres = zlib.gzipSync(proxres);
-      }
-    }
     try {
+      if (!headers['content-type']) {
+        console.log(proxres);
+      }
+      if ((headers['content-type']).indexOf('html') > 0) {
+        if (headers['content-encoding']==='gzip') {
+          proxres = zlib.gunzipSync(proxres);
+        }
+        var resstr = proxres.toString();
+        if (resstr.indexOf('</head>') > 0) {
+          proxres = resstr.replace('</head>','<script src="/mutation-summary.js"></script><script src="/nuclear-reset.js"></script></head>');
+          // .replace('</head>','<link rel="stylesheet" href="/nuclear-reset.css"></head>');
+        }
+        if (headers['content-encoding']==='gzip') {
+          proxres = zlib.gzipSync(proxres);
+        }
+      }
       response.end(proxres);
     } catch (err) {
       console.log("just walk away whistling...",url);
@@ -53,6 +53,7 @@ app.get("/proxy", function (req, response, next) {
           })
       .on('error', function(err) {
           console.log(err)
+          response.status(500).end("");
         })
       .pipe(write);
   } else {
