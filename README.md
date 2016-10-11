@@ -6,7 +6,7 @@ A simple proxy that strips away CSS frippery.
 
 [structure.exposed](http://structure.exposed/) is a good way to check how your site will behave if styles fail to load.
 
-Aggressive firewalls, intermittent connection, shiesty service providers, bad caches, browser plugins, content blockers, non-standard browsers, large blocking assets, greedy JavaScript, CDN outages, and panicky production hotfixes can all conspire to interrupt your style's HTTP request.
+Aggressive firewalls, intermittent connection, shiesty service providers, bad caches, browser plugins, content blockers, non-standard browsers, large blocking assets, sloppy JavaScript, compromised ad networks, CDN outages, and panicky production hotfixes can all conspire to interrupt your style's HTTP request.
 
 Authoring your markup in a logical order using semantic markup ensures that basic functionality is retained even if the visuals are not. It is also great for [helping to make your site accessible](http://a11yproject.com/posts/navigate-using-just-your-keyboard/).
 
@@ -20,7 +20,7 @@ Styles are removed by [an injected script](https://github.com/danielsmc/structur
 
 No.  Styles are removed after the page has finished rendering—this includes any DOM manipulation performed by the host site's JavaScript. 
 
-structure.exposed does *not* alter the host site's HTML.
+Aside from removing styles, structure.exposed does *not* alter the host site's HTML.
 
 It's also worth noting that for accessibility testing purposes, [nearly 100% of all people that navigate using a screen reader do so with JavaScript enabled](http://a11yproject.com/posts/myth-screen-readers-dont-use-javascript/)—your experience and the experience of a person using a screen reader may be closer than you think! 
 
