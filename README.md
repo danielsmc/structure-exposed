@@ -6,7 +6,7 @@ A simple proxy that strips away CSS frippery.
 
 [structure.exposed](http://structure.exposed/) is a good way to check how your site will behave if styles fail to load.
 
-Aggressive firewalls, intermittent connection, shiesty service providers, bad caches, browser plugins, content blockers, non-standard browsers, large blocking assets, sloppy JavaScript, compromised ad networks, CDN outages, and panicky production hotfixes can all conspire to interrupt your style's HTTP request.
+Aggressive firewalls, intermittent connection, shiesty service providers, bad caches, browser plugins, content blockers, non-standard browsers, large blocking assets, sloppy JavaScript, compromised ad networks, VPNs, CDN outages, and panicky production hotfixes can all conspire to interrupt your style's HTTP request.
 
 Authoring your markup in a logical order using semantic markup ensures that basic functionality is retained even if the visuals are not. It is also great for [helping to make your site accessible](http://a11yproject.com/posts/navigate-using-just-your-keyboard/).
 
