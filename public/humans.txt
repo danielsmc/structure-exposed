@@ -19,6 +19,7 @@ http://structure.exposed
 
 ## Thanks
 - The Hot Garbage Crew
+- Konami.js, (http://code.snaptortoise.com/konami-js/)
 
 
 ## Site
