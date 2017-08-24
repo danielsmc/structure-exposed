@@ -85,6 +85,7 @@ a:active {
     opacity: 0;
 }
 
+
 /* Form //////////////////////////////////////////////////////////////////// */
 .form__label {
     display: block;
@@ -157,12 +158,6 @@ a:active {
 
     font-size: calc(1em + 0.5vw);
     text-align: right;
-}
-
-
-/* Misc //////////////////////////////////////////////////////////////////// */
-.kern {
-    letter-spacing: -0.04em;
 }
 
 
